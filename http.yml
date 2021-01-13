@@ -1,144 +1,28 @@
 http:
   error:
     codes:
-      1xx:
-        description: 'Informational'
-        codes:
-        - code: 100
-          description: 'Continue'
-        - code: 101
-          description: 'Switching Protocols'
-        - code: 102
-          description: 'Processing (WebDAV; RFC 2518)'
-        - code: 103
-          description: '103 Early Hints (RFC 8297)'
-      2xx:
-        description: 'Success'
-        codes:
-        - code: 200
-          description: 'OK'
-        - code: 201
-          description: 'Created'
-        - code: 202
-          description: 'Accepted'
-        - code: 203
-          description: 'Non-Authoritative Information (since HTTP/1.1)'
-        - code: 204
-          description: 'No Content'
-        - code: 205
-          description: 'Reset Content'
-        - code: 206
-          description: 'Partial Content (RFC 7233)'
-        - code: 207
-          description: 'Multi-Status (WebDAV; RFC 4918)'
-        - code: 208
-          description: 'Already Reported (WebDAV; RFC 5842)'
-        - code: 226
-          description: 'IM Used (RFC 3229)'
-      3xx:
-        description: 'Redirection'
-        codes:
-        - code: 300
-          description: 'Multiple Choices'
-        - code: 301
-          description: 'Moved Permanently'
-        - code: 302
-          description: 'Found (Previously "Moved temporarily")'
-        - code: 303
-          description: 'See Other (since HTTP/1.1)'
-        - code: 304
-          description: 'Not Modified (RFC 7232)'
-        - code: 305
-          description: 'Use Proxy (since HTTP/1.1)'
-        - code: 306
-          description: 'Switch Proxy'
-        - code: 307
-          description: 'Temporary Redirect (since HTTP/1.1)'
-        - code: 308
-          description: 'Permanent Redirect (RFC 7538)'
-      4xx:
-        description: 'Client Error'
-        codes:
-        - code: 400
-          description: 'Bad Request'
-        - code: 401
-          description: 'Unauthorized (RFC 7235)'
-        - code: 402
-          description: 'Payment Required'
-        - code: 403
-          description: 'Forbidden'
-        - code: 404
-          description: 'Not Found'
-        - code: 405
-          description: 'Method Not Allowed'
-        - code: 406
-          description: 'Not Acceptable'
-        - code: 407
-          description: 'Proxy Authentication Required (RFC 7235)'
-        - code: 408
-          description: 'Request Timeout'
-        - code: 409
-          description: 'Conflict'
-        - code: 410
-          description: 'Gone'
-        - code: 411
-          description: 'Length Required'
-        - code: 412
-          description: 'Precondition Failed (RFC 7232)'
-        - code: 413
-          description: 'Payload Too Large (RFC 7231)'
-        - code: 414
-          description: 'URI Too Long (RFC 7231)'
-        - code: 415
-          description: 'Unsupported Media Type (RFC 7231)'
-        - code: 416
-          description: 'Range Not Satisfiable (RFC 7233)'
-        - code: 417
-          description: 'Expectation Failed'
-        - code: 418
-          description: "I'm a teapot (RFC 2324, RFC 7168)"
-        - code: 421
-          description: 'Misdirected Request (RFC 7540)'
-        - code: 422
-          description: 'Unprocessable Entity (WebDAV; RFC 4918)'
-        - code: 423
-          description: 'Locked (WebDAV; RFC 4918)'
-        - code: 424
-          description: 'Failed Dependency (WebDAV; RFC 4918)'
-        - code: 425
-          description: 'Too Early (RFC 8470)'
-        - code: 426
-          description: 'Upgrade Required'
-        - code: 428
-          description: 'Precondition Required (RFC 6585)'
-        - code: 429
-          description: 'Too Many Requests (RFC 6585)'
-        - code: 431
-          description: 'Request Header Fields Too Large (RFC 6585)'
-        - code: 451
-          description: 'Unavailable For Legal Reasons (RFC 7725)'
       5xx:
         description: 'Server Error'
         codes:
         - code: 500
-          description: 'Internal Server Error'
+          description: '{cipher}AgApqTAVG2i/i8OCKZjazm8vuZWCAbYYDU77P4TEEs5BHj1ndB5iEJsjqsAkAT7UZFaZ4tHd4KAhFwa6YnUzYSZZT5dQ7ctF0fcRhGUpzPwFBnvSvvy8tTqXbblGFTAAciO/RU34DZ++JlbQPAEHrbIQP8/IvkSBf7E6ouEGOjgvqkwO5qey3xWCo905xhpwur0HydrEFROGXu9r9IkD0tWQfPS7XveUkdLr0TR3+KcmEqVI3VySIRuJKzSoOv8q1k8Gfu4CA7FLtw+lUUaldQoyuiZiuQ2/zE8JD6GSMvjDxum6C1m8FkQQHsm9GtFJUvwc4zZqAcB4b4NF1sPj/SDEgc9zPDmmt9aMNcGspcHM8AKu0T0oS6om1d23FZouRKQ+GqufbYxBhvCqK0M5OguHv9Ph/Uy0fR9CBiKxiMHPtGCtpSaDuxYNWRnmCh/Ji3Dr+kF2hYP+ND5qQAn4t/3ArSCHPr+Xvgzo9M7OtzJucl3uaIy5G4K36Q8iniaxEdy/M9XJKUdfsiGjoc3dkMK0TREpjqXbzN1ADHCDeh+WLy5LRN2EQcqZvnkKBbsdRXOhkE58rmWrzT4gN5mAtghP+GY8NzJpLwnhYo8/x3hwpqmzCUs++XjpfRGXU7FWGwhOcr5QoP8cguStwyymggncgO4K2cTabULjNqXMVDMv7csfaJb6syrP7Vt1iE0s13bkJw9nhOKmMvH6BuvZ5c2sxCi0CysEXlXDh4a6rYfb8g=='
         - code: 501
-          description: 'Not Implemented'
+          description: '{cipher}AgBl21uBEui7lCellFmj3WQprOSxNTfh+2Vw3F1urcNf9LmPNGzDxamXQEoFuPX0dGz6eIQfPmnZ6LuWlavy0NuYAgy0gXo1l8aHz/lyUFOZGIX7qYf+9ChB7kfYAqRmO99dqsuNJEo+3WqCBjfjjXbeqypIsP3hQ82RpAe+pjWwWnwdBvBR1OCv+/kdoio+XGbYL69oos1ftqxSRvUts8T2Vu7xZM6f0mJql90IicGStbvOXsxv6EY3wMnI1qRGccvQO6xPmPHLKBGHCq7T2CdFNG5WMnSNdvRuiTGxTTJD3WlG3OhUqXXpu+LvDkMSVGGOQWX4nTg/flI7AQxYi6Xf87OsP/2kCsW2D7esNt2aqQNxXLxqqEOaQIEBFj79WkXK9SFX3GLz3SdL57fDknh577POlzQxNbgod0HfZfod3GFiSG/eE98G3I7wl/a82bJT1F4tGIsr5w6/jUBFmctbzpieM3BT6XiAmxV0/PNfdDZaYWUeH2kdv2tN8vZ0O0XMKtHkGiRdksOmfxoqeM58lU7YOncWPVUVFjlPdpvymkxgrYB97bGsFSp11/TVWdKqflg0F0qXmdYGQZlP8KAoBa8E3OgAUOe7AJjD13I8wRB+kPP3dl0HVUzS5vBE3tlnVY03/ad2SMb2Y1Aj+5Vukw+EpzD/gH7mDBdKFIh3z7AecnTSlzfxVrvIYYbrt7MjInBlm7dvj62/o9rkra3N'
         - code: 502
-          description: 'Bad Gateway'
+          description: '{cipher}AgBBoagoMZGjBFJciAIMjKqt/AUhwNO/aoWNLG4UfFA1qdSPXHFp4cz6PN4ApZtOrRrNxxLKWxpLxfTDfb2tObnYteUobivrcz59LYOIqAGrStvX2lRWgjnzIELH5kPDhgFnUseYijiFR2/E5cXswKhaqU/1HY1JbVsRBABd8OYQMGA6oxC2Dyr7+jUhWeLDhIY1GD4T14k/RNMc8YHaau+SC22VXuoxbAa7RIxn1DAB25n6yNFtuxWWsg2Lfv502qFVKfUIv59HpaH4ubaZt9wSxttNtMidHswrySVqy/4k51wC4rm0Y91/vX9K49uqdUwYO+RurLvF2r/0KOe1FF/WoEJRBdOP5GSCIz6qJ6R4t0tFSa2IgFAJU8i2t5Exqe/NGqHw/DkfRqcADDSI2i6CTONgvHFmUCWM1GimgNER6ooSsNKNN5itx2w0LPisus9ai67zfYL/GEbLvfoPaBQ8RYsjKmriztWuowYxGmDPQgxOuipd3PPTfefmMIGq4WQICETzll5B7tVpkXZrHa9Uz6HwyOB7/ZNTmbYcZ58eBBrjxyEocPdp+8KP4qHvLJAYdtmQc2jiynFqpPkTeFjUHcvWfH5tSwGG1Le9AxL68BEaRIdzrEhnjyPkaXxcp/xCqAw2u4EfvTnZir/EtgO/RNzWLHjqdv+zqnmCQKH9tgWj+enex4LZGK0z2p3F7TpbhtUyy62jJJoAOUTjU/Rm'
         - code: 503
-          description: 'Service Unavailable'
+          description: '{cipher}AgBZFrP4eXQvAgThwrl4W8bNGCw+v/VtVJINgAE7qRMv+qkfCyiqym1eS0n8LyXp5J2igPVXrsI0nLHg3HSEz43hzMTDVCLq+KnfeAynEMXeGXYk68Dl0IhEeMvS/YxVcw+EoR+6bw+UeIL6ChiGCAkyfnWF0ax3yxKUvoJnOSec2AOiUqPVf0g2N2/MFllHZdl4MRdYSKqzoKKfdDHfJp6qmxejZd+VmPIJHC3zuhdv5KLgXs+i5OQVlKyF7j798BgOTmBX9ajFvPjdHNsCGscXLvLwn4lWqiYzafchDnxISocVLy/Hrzvxp7q+17tuex3zRFm1ISBFEUpSrVECgpzbfKF26l35qO8ukBIJkEEx7qkztLy+ZeuNxvgNqMf4x3fOmePWh5a8fG1KSODekSbOiYPK2XfQxmlViIe48EkJJ3d0eUTj+PAu8H0Kgi6Mm+L1DB5R9ooRJlt+5pZuZspoS+wu+UdvkZM/iQwJElYAjF7qb8QSUa5yu1+TOH7T/asF7O4SEs4OLNs7VbVn5KVMdH95NM8gtYdzRfPdJr6n0s8vuAWr0nY9cazyHWiFEk6GDjZER9UNT22AMHws1+JSOS/sPhEjtBNOBhFsIFpIosF+EnLqmItUcydFweeEFEttcer05pryDBsZxHVnfbYWfi3+vAsR3M27/6ff50sXLTKhtG4oJ4/frbNpyrcLIzin0zNRudLJvRQ7J9K2n7PCZZzWBJ29Gcq6qj4ezq3Wsg=='
         - code: 504
-          description: 'Gateway Timeout'
+          description: '{ciper}AgAkgotwdyGeCm485bMmt4agqDYsKIc2IFfJfT6PzqSGjdvHGiLsu/969mX6Ma/ksITtA4CHi7bXsBpH2bwhp8DPIQJHflk1Qw/N4hc5O85JC9irvDhkD7XnzTi/XSTiGOFgw/+v5x+ktX+AXhlEWTWuA77EZvHoH4XxJ7YwS3mWtKUrJlTeBpxXCBqQZdaVUxWWLCm07qgVP8d1snSaG9jI+hsOVE7/Juuakjck/nnuDMgqL34f0/LHsZnoof2aVgX+Fef1jSs2rFFZWsstvOGXKtr+ojV38C5rU9c0Pk35oCI3OdJ7YTeDJeROduA18VHYSKsBUaD7JxgvLymUTXM2K3eUCK+GAUdW9kYiyfrMcVimAGkrch1YVQupRNaouzy3draq2A+sEnZTkuSCTxkx3N3s4Y+lvko+9Bwjhu25o/2XPoqGNWzdD2J+YV8HrZMl44FMQhWc+gwMyq7KB2TB3VsVHIDdJHJZzkeKTvSbtu+URB9m3dUfFwsq1T4cV3bY9Tqf5PXROVulalouCorPkUimMUrjgj01kjKIOKEzjynZicT2q4cXLQE+AYdv1X9nBEGYB+GSbsu7p2vKjTJN/JTHR9fymTRiCzUIGI+hJmVcrnf0AaBBNcG1tM90Kzu0MVpqdjq2ebsBF54x+C+97cbdiTJFtiUfv9kE9ZOc/xBV1tubwhQs+dQsp2/hL/dhyLTiUVPYUWUPcE0jOsHY'
         - code: 505
-          description: 'HTTP Version Not Supported'
+          description: '{cipher}AgBTRYpCQ5M7r3DhFJbRkU+2U91ByAwO9APMV5vNrnMssybou4zxORPKdT2t61h7zC26XyhWnrfH0niOMjPfPT1bCtMDL4ay2qKIphqVv4X/URhp3hxNEE7M3K6kYoWcfDDRVH5la4mkLYi1z6wWmB3p3zVJKE9nWA7pmpvw9gQGpTrrSciDJ65MMpIqgn9tnrNhfjcQL4b98FeGMwFGZ82Tb0fcN1QL55e/0KAZzKlVqOM5mKYBAvb1EFy+SCpp+ONoiD0H1ZD5fQ1rVz0ruhIl0osd8yiQxiQq19UHLZZfoKcVlxV78E9JCwm61zqr2TQYuC7b892QgFVpEnZLCJgHKiu/5k9kH5UsHiR1YMywhuKaQ+0p4PWUZFr30uJbx66sGj2Fu104sv+pIypoeO6hwtUoJgPQQg5rOIgDL0wHaDcGynNwoAWpfqd5HfUn+W51AzPkyd7hkn/DL8aUa9SEHJRSeqDYOQeME1aemh2OBt/9oPEXQZ8PX5yk243nnW1cv243tMN+b5FbO0bsS3oDYot4u/6HfGZOTFDBbnp4N9rJegIQxafSUGHk9zUSqFagPv6oOHpa86zq3mEfN2kyBjC/oJCGgqpRdXt3UNvCptV8sEd6bVemj1A8rOWfMFWyAyVHmFmGeF8Tm2nQfWWeKTOwZu0H8LwqrffeluRvlb9/8L6MvrAl1lbvQThD2Rpqt+atfEBuz/knUuX1/e/W3uDTpL3EnjbsXZaAkpIzMw=='
         - code: 506
-          description: 'Variant Also Negotiates (RFC 2295)'
+          description: '{cipher}AgAiUmpNSUg24bf9n1bU8rj2pw2Uj+i1N7LKJOfFVNRVVvXpyyygRxuJDQZZQLqbIImDnbCiH5gmbTJ7rHr2IfCBWK/w+e3vJv3CHEqAQmuMnXCjIRayam975Ytwd16ZrkDhNN55hZk/X2Y+Ry5hYlEyOQI5L2iMzWXTXzRiNAeQDoEmlAuGQdZFfObhx3EvZF3NHNhxiJcx+3bh6Bl4OLgm8moPgkY2zdhe31BqEMMwc/WjB/4cQFIcsAmwyX/L3j8IIfrpVtMg+X/DbXTeztpG0QVQPGdvOvUrv9nsxxUzpZd9EwKEjkY1gBx/pLQF4vSM5qdtxY9fNnoa/Rc315/ooswzt/TbIE1N4Nz980xIDsrhrHvnQVtMTxrV1OS23H+meY9i58QHUl1OuGeLHjZKZLMUWabFmcjKBbSdeG886/X5y2RlNboXKkL5w+q43VNQaHRsWuUIOa/pnn3MCgmUvroc5FeNKJPbcg83mdbqEnqnQ4n3CDE3CvpyroyHin+gk5POyXiYx0lJSsitppwDwDKJ59ouvM6Z0j+bwa590MbFVX9wQxLUMNte8otfwhNOGqmn3h4y1UvHR0PeManOYYOMSdpkR9j/vz8QMak3UifojJmhyJiZEv2IOgZuhAlIeXabgq2jwtQI7olxKbNS0O8OnUBxkcVjuj4JCvzog4Ns58qtTyTcL/Xp1xKZQJUgyomVxO7B5/7Ln5YRl85x7yJZpAmsOVag7YQbgU1MllaxRSi+2mzFXXLTQMxAkhs='
         - code: 507
-          description: 'Insufficient Storage (WebDAV; RFC 4918)'
+          description: '{cipher}AgBzGzeCwsBp/Vx7GM/R5+4QIiJhZuF5NpU4v17FlYyNP9U+qqmUXejW3IQQH1AvqlNNUO4IO7rR9L1ydsz9jK9NilMKKiNXsc4PhXcX74nPxwhjYAwZ9th6KPkFW706ZKUI5MlfCs75mJlQNQFFsZOnk89y9vOKF1IiXblixodPTBZjiE4SyLIRtRwbprGfkxYIOJUqGZ3hx0G/WPN6E+7KHTA/WjkfmNiAHsRHjpki8wu007/JoBx9E1Yrlv8LuAA2I4UbQnl/VGsKBUzZyat1De6xXa4lFUe7gQ2Z1HtWO8xNMhAhHOpeAP7/Dvk0kE4qOojskh4WsJcLQVhKtVIADotS53AadDMhnvdS8qoq2+jlWXVY/fAdAomDe6lXQ0VTWoJ4JX/g0Zf92dxhW31XKexiDnm3RjxLcqUMTON3o3+y1Wmvl9X5+3ABYDIWnjHXug9NNQN/ZXcyPfjA7Rl94Rz0tEnlWlF+tzeh84r2cmK9K45gPQB06GvZCPg+mQtn1yj9Qin1JQ/VrAUGLRcCRHBbyOxU61wW6i2H48zsjbnHzl6DgYfs4kMQPvXq7y0xVbH/HApamu3yJzk8c+p5CrBYRIREtnDFgZUuWKjbabWsJ7DVzWuHYdYOAQGvJ12WTWyH+jvWcDs8s/kxjtbljna76uAN5bOMbGGjFAYdmYviTnLxPPttRz90Pdke7bNVf4d2Mo/OyWoBCQ5X8iZZFksb91DytEdlfVwEoQtIIw5sO43q+FdgnYBa0aupf+c='
         - code: 508
-          description: 'Loop Detected (WebDAV; RFC 5842)'
+          description: '{cipher}AgBp/aavhSRCdDiC3+qGaj5kRiqqYJZCN7L+OQMjvbJaV+W61MKoButMXMTIkgB2ihlUFY3sZv5Qvn3iOzyvhQ5ne18XQX4IxIe43earnYK2ciXroBncJ/n2hzGAwlGdGR3ObYh0WPU4TzzcYGqr9ZEg/tdPuTHiXL7TKYRw97+T6o6Ms2p66PNIEK4bEQcxnDVjFntz5gwkIpu2XfkFPUTwIIEWRBZp+q4EdDXP1MoE4/wOXVb3DVyyvopDQ6BzQ7/UFqjx6O7288htmoDQ0PLmD+cLJ8k92ORW15/zzQz/+5eUQyPIllJ2FYJ7+4kdUnDfR3Ps2rZD0k54ecqT1/J7mjqmYrFjfJKPBlcjTmimP4OFuzSvMA4mfxiBE3R5IFNtEl1/j5Pcm2KTIxFZmIW1DdzgCIC67gR/PYGOjaLsA4B7l091XXUpVLf3jwMjSPHOcaU4guz1+2P/4mDnac5KR5y2keTPUYGxgRWwWsY+EaJtnXNANF+wiMXC2R3spPEOcyAbSFTZR/ou8HMDGvm7cSZ26/gXgk1FM9U8lsoexSimTHcKUiGOG7T6TB4Qo0a32NKu8g8BMdsaMm9QrakdjEDSTR0a1yGQAygzcc28+sLrbsO70zfyDfFHKx0LcVgLSPndpbRYmp+fNMUs8mi2hw6VLDqicg9XN4H4gm0m4xKONcgBkyfr7PH14AvxPE4acrN7w8O7pm5aA4tl6ACReaDjtb7Y7Mq4OoDugAwJSd5WhSfL8ZjigQPrJjJH9lg='
         - code: 510
-          description: 'Not Extended (RFC 2774)'
+          description: '{cipher}AgB4OE+v+0cffPA74T/VnFsL87BqlAP374EFELStwN9FFyct1WvcLVNT0GR4rD8WXOxny/zunokQEe6eciqClsJr9X1SRkoZm4E7W/KAi5hMuU5MaSmPpRhxgjA3sDyiMboH0B6cn04bX7F5BABqj5i+bj5lQDDgbpJdUracNuJay2XrA/ywkuKZiV1qLAlfl9T9CkbScmHOc776AMi570B7Le0oqvUvdIdHOz2LTb0502jut3bY/LGuTxMDuqjaPnprM/jpOiOioJVG8MRBnx2hejs0cgUxf8nxBbpxJuXb/7qtpUmMurIRMEDcxPkZwiQ1k75xJbLxO8Eceo2gETg75wMv0fLTpp0LGQyY9i4OrpOKclxGsZ0oAxMzHTLVh6g8Marmimv9OsgTnvHe3vPA9H6ziFXap7/nEsFZB5WxWR8Hk00LewNz8r3vdgGJF5e4MPyGDVVWEqmByPpLvqo7T0LkjfU1uNxEdV0GtsRlAephmFoyHMFKpKJdNQXPHDhyqrzHD61tfHFmNTQted7Hvm3Bf2Ksm4SjEO0ibPJxD/RNwewP/dBgvHPd1v9e/xFDc57br2YNlHydGaGCqGDFn4glF5q+X2KK4tIuCd1406aVcm18nlJFizvAX+Wb8+g2CE86qWkQmjHHd/G7c6JApipQWpKFgcjPuY1csB+eK9XXA+m4ove0oRPgqRs83MdjsXoMy+PztNOQDPwj2+Sjk1dZmdhGzrQ5lWsFIefQVg=='
         - code: 511
-          description: 'Network Authentication Required (RFC 6585)'
+          description: '{cipher}AgAwsDjw3PHBdIccWHF4lwxIqcQRGsmUuM6NQBf5Ddolsgk0K8KPqFTiukK5bl7dSQZYz7dL3Wpgt5LeSFq6Prt3qKAL6w5bHwq+vy3TUNk1fBplkcOW99nt4akUaBaLS8AHroDH2x/FDmCO/z6ieeXkfjdC0/gxXIui/VDe58RIJ3s7D0blgxbtk9SqA2Lb1AfeVLNpSuh9F81osdZiIkkmH49CwCafDDKC+Wo6bIIklk/5AV/ZEONI3yq4JQYlLqOja7JQz1MaxK4RGi3F+7dagmPEvVCocLipQ0f7br2lCm1w9ETpxVWEENmreDFfPP+gmv70zILvVd1sKwyZb5dLv6VICw7fkHE2rodC9dSVr/yGmegfvwh3ty12qONNTV4DEqfmPk27eyTewpjB2CkcRGckyuYLqj1aaq0fLgUCuSDG9ZGGLrZ+8/5KffZ1neaThy1RbhprDwP4dTgPnjJRueCL/isCo/RG/Tt+DDTYHyRglyE9DxEWQkCuEEZ7eVl1Xbm65ZEsnepqWhHwrFlggZuQT7dPf3dSIDhNttyVJL0SQ0HoJQizAULxjkmwt4N0XMMuNyeT/DUeuulNncQu8qpQj4lm91IK6wnueetRB7iqb29lOCYQ/iu4x8G+uUdmpFHntukdWs8eNbLHxH0G3TUk83yWO2vhKxNdgg24URQ+WnJpQu9WFMFoUo2A1+lljZAULMzbS7g+DxGP0Hhe/N7SNUxwc2oy3xMGYpRd50JMmGt6ruRzOtVMGWVZk9k='
